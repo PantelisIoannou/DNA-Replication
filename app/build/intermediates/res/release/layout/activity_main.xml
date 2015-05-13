@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+   
+    
+     <TextView
+        android:id="@+id/textView1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TYPE DNA SEQUENCE:"
+      />    
+    
+     
+     
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_below="@+id/textView1"
+         >
+
+    <LinearLayout
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        
+       </LinearLayout>
+            
+    </ScrollView>     
+       
+        
+     <LinearLayout
+        android:layout_width="297dp"
+        android:layout_marginTop="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >   
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:weightSum="100" >
+
+            <Button
+                android:id="@+id/bA"
+                android:layout_width="127dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="50"
+                android:background="@drawable/a_button" />
+
+
+            <Button
+                android:id="@+id/bG"
+                android:layout_width="127dp"
+                android:layout_height="45dp"
+                android:layout_weight="50"
+                android:background="@drawable/g_button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:weightSum="100" >
+
+            <Button
+                android:id="@+id/bC"
+                android:layout_width="127dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="50"
+                android:background="@drawable/c_button" />
+
+            <Button
+                android:id="@+id/bT"
+                android:layout_width="127dp"
+                android:layout_height="45dp"
+                android:layout_weight="50"
+                android:background="@drawable/t_button" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:weightSum="100" >
+
+            <Button
+                android:id="@+id/bClear"
+                android:layout_width="127dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="50"
+                android:background="@drawable/cl_button" />
+
+            <Button
+                android:id="@+id/bDelete"
+                android:layout_width="127dp"
+                android:layout_height="45dp"
+                android:layout_weight="50"
+                android:background="@drawable/custom_button" />
+            
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bEnter"
+            android:layout_width="127dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_enter_button" />
+        
+    
+      </LinearLayout>
+            
+      
+    
+</RelativeLayout><!-- From: file:/C:/Users/Vradis/AndroidStudioProjects/DNA-Replication-transcription-translation/app/src/main/res/layout/activity_main.xml -->

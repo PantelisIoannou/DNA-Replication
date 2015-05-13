@@ -1,0 +1,2 @@
+C:\Users\Vradis\AndroidStudioProjects\DNA-Replication-transcription-translation\app\build\intermediates\classes\release
+C:\Users\Vradis\AndroidStudioProjects\DNA-Replication-transcription-translation\app\build\intermediates\pre-dexed\release\support-v4-19.1.0-6a941913c0ad06fdf7f540bb621b715462d29d33.jar

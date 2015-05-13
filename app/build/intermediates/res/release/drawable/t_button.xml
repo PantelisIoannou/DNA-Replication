@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item android:state_pressed="true" android:drawable="@drawable/thymine" />
+
+<item android:drawable="@drawable/thymine_button" />
+        
+      
+    
+
+</selector>
+<!-- From: file:/C:/Users/Vradis/AndroidStudioProjects/DNA-Replication-transcription-translation/app/src/main/res/drawable/t_button.xml -->
